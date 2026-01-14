@@ -10,7 +10,7 @@ import {
   Text,
   useTheme,
 } from "uioh";
-import { Swatch } from "./components/swatch";
+import { Swatch } from "./_components/swatch";
 
 export default function HomeScreen() {
   const t = useTheme();

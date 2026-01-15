@@ -1,7 +1,13 @@
 import { View } from "react-native";
 import { Text, useTheme } from "uioh";
 
-export function Swatch({ label, value }: { label: string; value: string }) {
+export default function Swatch({
+  label,
+  value,
+}: {
+  label: string;
+  value: string;
+}) {
   const t = useTheme();
   return (
     <View

@@ -10,7 +10,7 @@ import {
   Text,
   useTheme,
 } from "uioh";
-import { Swatch } from "./_components/swatch";
+import Swatch from "./_components/swatch";
 
 export default function HomeScreen() {
   const t = useTheme();
@@ -20,6 +20,7 @@ export default function HomeScreen() {
       contentContainerStyle={{
         flexGrow: 1,
         padding: 20,
+        paddingTop: 40,
         gap: 16,
         backgroundColor: t.color.bg.canvas,
       }}
